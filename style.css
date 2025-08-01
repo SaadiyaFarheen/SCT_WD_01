@@ -3,47 +3,138 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Segoe UI', sans-serif;
+  background: #fdf6f0;
+  color: #333;
 }
+
 header {
-  background-color: #222;
-  color: white;
   position: fixed;
-  width: 100%;
   top: 0;
-  z-index: 999;
-  transition: background-color 0.3s ease;
-}
-header.scrolled {
-  background-color: #e91e63;
-}
-nav ul {
-  list-style: none;
+  width: 100%;
+  background: #fff;
+  padding: 15px 30px;
   display: flex;
-  justify-content: center;
-  padding: 1rem 0;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  transition: background 0.3s;
 }
-nav ul li {
-  margin: 0 15px;
+
+header.scrolled {
+  background: #ffccdc;
 }
-nav ul li a {
-  color: white;
+
+header h1 {
+  font-size: 24px;
+  color: #ff5e7e;
+}
+
+nav a {
+  margin: 0 12px;
   text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s, border-bottom 0.3s;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
 }
-nav ul li a:hover {
-  color: #ff4081;
-  border-bottom: 2px solid #ff4081;
+
+nav a:hover {
+  color: #ff5e7e;
 }
-section {
-  padding: 100px 20px;
-  min-height: 100vh;
-}
+
 .hero {
-  background: #333;
-  color: white;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding-top: 150px;
+  padding: 120px 20px 40px;
+}
+
+.hero-text h2 {
+  font-size: 32px;
+  color: #ff5e7e;
+  margin-bottom: 10px;
+}
+
+.hero-img img {
+  max-width: 300px;
+  transform: rotate(-1deg);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #ff5e7e;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #e14f6b;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 28px;
+  color: #ff5e7e;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  font-size: 18px;
+}
+
+footer {
+  background: #ffccdc;
+  padding: 15px;
+  text-align: center;
+  color: #444;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    text-align: left;
+    padding: 100px 60px 60px;
+  }
+
+  .hero-text {
+    flex: 1;
+  }
+
+  .hero-img {
+    flex: 1;
+    text-align: center;
+  }
+
+  .steps {
+    gap: 40px;
+    font-size: 20px;
+  }
 }

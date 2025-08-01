@@ -1,43 +1,62 @@
-# SCT_WD_01
+# Study Planner Web Page
 
-## Task 01 – Responsive Landing Page
-
-This project is part of the Web Development (WD) track under SkillCraft Technology Internship.
-
----
+A responsive and visually appealing study planner web page designed to help students organize and manage their study routines effectively across all devices.
 
 ## Features
 
-- Fixed navigation bar
-- Navigation bar changes color on scroll
-- Hover effects on navigation items
-- Responsive layout for all screen sizes
+- Clean, modern, and pastel-themed UI
+- Fully responsive layout (works on desktop, tablet, and mobile)
+- Clear and organized content structure
+- Easy to customize and expand
 
----
+## Technologies Used
 
-## Files Included
+- HTML5  
+- CSS3  
+- (Optional) JavaScript for interactive features
 
-- `index.html` – Main HTML structure
-- `style.css` – Styling for layout, responsiveness, and nav effects
-- `script.js` – JavaScript for scroll behavior
+## How to Run the Project
 
----
+Follow the steps below to run the project locally on your computer:
 
-## Tech Stack
+### 1. Clone the Repository
 
-- HTML5
-- CSS3
-- JavaScript
+```bash
+git clone https://github.com/SaadiyaFarheen/SCT_WD_01.git
+cd SCT_WD_01
+```
 
----
+### 2. Open the Project
 
-## How to Run
+You can open the project in any of the following ways:
 
-1. Clone or download this repository
-2. Open `index.html` in your browser
+- **Option A**: Double-click on `index.html` to open it directly in your browser.
+- **Option B**: Open the project in a code editor like Visual Studio Code and use the **Live Server** extension to run it.
+- **Option C (Optional)**: Use a simple local server if you have Python installed.
 
----
+### 3. Run with Python Server (Optional but Recommended)
 
-## Author
+```bash
+python -m http.server
+```
 
-SkillCraft Technology – Web Development Track
+Then open your browser and go to:
+
+```
+http://localhost:8000
+```
+
+## Folder Structure
+
+```
+SCT_WD_01/
+│
+├── index.html          # Main HTML file
+├── style.css           # CSS styling
+├── images/             # Folder for any images used
+└── README.md           # This file
+```
+
+## License
+
+This project is for learning and personal use.
