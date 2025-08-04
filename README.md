@@ -5,7 +5,7 @@ A responsive and visually appealing study planner web page designed to help stud
 ## Features
 
 - Clean, modern, and pastel-themed UI
-- Fully responsive layout (works on desktop, tablet, and mobile)
+- Fully responsive layout (desktop, tablet, and mobile)
 - Clear and organized content structure
 - Easy to customize and expand
 
@@ -17,7 +17,7 @@ A responsive and visually appealing study planner web page designed to help stud
 
 ## How to Run the Project
 
-Follow the steps below to run the project locally on your computer:
+Follow the steps below to run the project locally on your computer.
 
 ### 1. Clone the Repository
 
@@ -30,33 +30,35 @@ cd SCT_WD_01
 
 You can open the project in any of the following ways:
 
-- **Option A**: Double-click on `index.html` to open it directly in your browser.
-- **Option B**: Open the project in a code editor like Visual Studio Code and use the **Live Server** extension to run it.
-- **Option C (Optional)**: Use a simple local server if you have Python installed.
+Option A: Double-click on index.html to open it directly in your browser.
 
-### 3. Run with Python Server (Optional but Recommended)
+Option B: Open the project in a code editor like Visual Studio Code and use the Live Server extension.
 
-```bash
+Option C (Optional): Run a local server for better development experience.
+
+### 3. Run with Python Server (Optional)
+If you have Python installed, run:
+
 python -m http.server
-```
 
-Then open your browser and go to:
 
-```
+## Then open your browser and go to:
+
+
+
+
 http://localhost:8000
-```
+
 
 ## Folder Structure
 
-```
+
 SCT_WD_01/
-│
-├── index.html          # Main HTML file
-├── style.css           # CSS styling
-├── images/             # Folder for any images used
-└── README.md           # This file
-```
+├── index.html       # Main HTML file
+├── style.css        # CSS styling
+├── image.png        # Image used in hero section
+└── README.md        # Project documentation
 
 ## License
 
-This project is for learning and personal use.
+This project is for learning and personal use. You are free to modify and adapt it as needed.
