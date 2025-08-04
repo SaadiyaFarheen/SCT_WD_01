@@ -54,12 +54,14 @@ http://localhost:8000
 
 
 SCT_WD_01/  
-├── index.html → Main HTML file  
-├── style.css → CSS styling  
-├── new-image.png → Image used in the design  
-└── README.md → Project documentation
+├── index.html # Main HTML file  
+├── style.css  #CSS styling  
+├── image.png  #Image used in the design  
+└── README.md  #Project documentation
 
 ## License
 
 This project is for learning and personal use. You are free to modify and adapt it as needed.
-Let me know if you want me to write this in markdown format so you can copy-paste directly.
+
+
+
