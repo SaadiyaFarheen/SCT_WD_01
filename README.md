@@ -54,11 +54,10 @@ http://localhost:8000
 
 
 SCT_WD_01/
-├── index.html       # Main HTML file
-├── style.css        # CSS styling
-├── image.png        # Image used in the design
-└── README.md        # Project documentation
-
+├── index.html    → Main HTML file
+├── style.css     → CSS styling
+├── image.png     → Image used in the design
+└── README.md     → Project documentation
 
 ## License
 
